@@ -5,6 +5,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 
+import org.apache.log4j.Logger;
 import org.dozer.DozerBeanMapper;
 import org.dozer.Mapper;
 
@@ -19,6 +20,12 @@ import com.ddlab.dozer.type5.srcpkg.SrcBean;
  * @since 2013
  */
 public class TestCustomConverters {
+	
+	
+	private static final Logger out = Logger
+			.getLogger(TestCustomConverters.class);
+
+
 
 	/**
 	 * The main method.
@@ -39,8 +46,8 @@ public class TestCustomConverters {
 		DestnBean datb = new DestnBean();
 
 		mapper.map(sadtb, datb, "k");
-		System.out.println(datb.getUid());
-		System.out.println(datb.getJodaDate());
-		System.out.println(datb.getBigDecimal());
+		out.info(datb.getUid());
+		out.info(datb.getJodaDate());
+		out.info(datb.getBigDecimal());
 	}
 }

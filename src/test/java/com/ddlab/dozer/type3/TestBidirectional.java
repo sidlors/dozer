@@ -3,6 +3,7 @@ package com.ddlab.dozer.type3;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.dozer.DozerBeanMapper;
 import org.dozer.Mapper;
 
@@ -17,6 +18,12 @@ import com.ddlab.dozer.type2.srcpkg.Address;
  * @since 2013
  */
 public class TestBidirectional {
+	
+	
+	private static final Logger out = Logger
+			.getLogger(TestBidirectional.class);
+
+
 
 	/**
 	 * One way.
@@ -32,8 +39,8 @@ public class TestBidirectional {
 
 		AddressBean adb = new AddressBean();// Destination
 		mapper.map(adrs, adb);
-		System.out.println(adb.getId());
-		System.out.println(adb.getName());
+		out.info(adb.getId());
+		out.info(adb.getName());
 
 	}
 
@@ -52,8 +59,8 @@ public class TestBidirectional {
 		adb.setName("Bidirectional");
 
 		mapper.map(adb, adrs);
-		System.out.println(adrs.getId());
-		System.out.println(adrs.getName());
+		out.info(adrs.getId());
+		out.info(adrs.getName());
 
 	}
 

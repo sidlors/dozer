@@ -3,6 +3,7 @@ package com.ddlab.dozer.type4;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.dozer.DozerBeanMapper;
 import org.dozer.Mapper;
 
@@ -18,6 +19,12 @@ import com.ddlab.dozer.type4.srcpkg.MyPerson;
  * @since 2013
  */
 public class TestNestedBean2Flat {
+	
+	 
+	private static final Logger out = Logger
+			.getLogger(TestNestedBean2Flat.class);
+
+
 
 	/**
 	 * The main method.
@@ -43,10 +50,10 @@ public class TestNestedBean2Flat {
 		MyPerson p = new MyPerson();
 		mapper.map(p1, p, "b");
 
-		System.out.println(p.getAge());
-		System.out.println(p.getDoorNo());
-		System.out.println(p.getName());
-		System.out.println(p.getStName());
+		out.info(p.getAge());
+		out.info(p.getDoorNo());
+		out.info(p.getName());
+		out.info(p.getStName());
 
 	}
 

@@ -3,6 +3,7 @@ package com.ddlab.rnd.type1;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.dozer.DozerBeanMapper;
 import org.dozer.Mapper;
 
@@ -18,6 +19,12 @@ import com.ddlab.rnd.type1.srcpkg.Person;
  * @since 2013
  */
 public class TestBeanMappingType1 {
+	
+	
+	private static final Logger out = Logger
+			.getLogger(TestBeanMappingType1.class);
+
+
 
 	/**
 	 * The main method.
@@ -43,9 +50,9 @@ public class TestBeanMappingType1 {
 		// Copy the bean from source to destination
 		mapper.map(p, p1, "a");
 		// Check the destination bean
-		System.out.println("Age : " + p1.getAge1());
-		System.out.println("Door No : " + p1.getAdrs1().getDoorNo1());
-		System.out.println("Street Name : " + p1.getAdrs1().getStName1());
+		out.info("Age : " + p1.getAge1());
+		out.info("Door No : " + p1.getAdrs1().getDoorNo1());
+		out.info("Street Name : " + p1.getAdrs1().getStName1());
 
 	}
 

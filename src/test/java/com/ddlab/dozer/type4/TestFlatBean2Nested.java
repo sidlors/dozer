@@ -3,6 +3,7 @@ package com.ddlab.dozer.type4;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.dozer.DozerBeanMapper;
 import org.dozer.Mapper;
 
@@ -17,6 +18,12 @@ import com.ddlab.dozer.type4.srcpkg.MyPerson;
  * @since 2013
  */
 public class TestFlatBean2Nested {
+	
+	
+	private static final Logger out = Logger
+			.getLogger(TestFlatBean2Nested.class);
+
+
 
 	/**
 	 * The main method.
@@ -42,13 +49,13 @@ public class TestFlatBean2Nested {
 		Person1 p1 = new Person1();
 		mapper.map(p, p1, "a");
 
-		System.out.println(p1.getAge1());
-		System.out.println(p1.getName1());
-		System.out.println(p1.getAdrs1().getDoorNo1());
-		System.out.println(p1.getAdrs1().getStName1());
-		System.out.println(p1.getAdrs1().getCountry().getName());
-		System.out.println(p1.getAdrs1().getCountry().getCode());
-		System.out.println(p1.getAdrs1().getCountry().getBd());
+		out.info(p1.getAge1());
+		out.info(p1.getName1());
+		out.info(p1.getAdrs1().getDoorNo1());
+		out.info(p1.getAdrs1().getStName1());
+		out.info(p1.getAdrs1().getCountry().getName());
+		out.info(p1.getAdrs1().getCountry().getCode());
+		out.info(p1.getAdrs1().getCountry().getBd());
 	}
 
 }

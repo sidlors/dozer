@@ -3,6 +3,7 @@ package com.ddlab.dozer.type2;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.dozer.DozerBeanMapper;
 import org.dozer.Mapper;
 
@@ -18,6 +19,11 @@ import com.ddlab.dozer.type2.srcpkg.AddressList;
  * @since 2013
  */
 public class TestList2List {
+	
+	
+	private static final Logger out = Logger.getLogger(TestList2List.class);
+
+
 
 	/**
 	 * The main method.
@@ -53,8 +59,8 @@ public class TestList2List {
 		List<AddressBean> adrsBeanList11 = destnAdrsBeanList.getAdrsList();
 
 		for (AddressBean adBean : adrsBeanList11) {
-			System.out.println("Id of AdressBean :: " + adBean.getId());
-			System.out.println("Name of AdressBean :: " + adBean.getName());
+			out.info("Id of AdressBean :: " + adBean.getId());
+			out.info("Name of AdressBean :: " + adBean.getName());
 		}
 
 	}
