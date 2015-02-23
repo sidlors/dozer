@@ -1,8 +1,5 @@
-<!-- 
-- This is a simple dozer mapping to copy one bean to another bean
-- In this case , both the beans have the same structure.
- -->
 <?xml version="1.0" encoding="UTF-8"?>
+
 <mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
 	
