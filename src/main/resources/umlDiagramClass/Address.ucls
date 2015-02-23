@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.8" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <package id="1" language="java" name="com.ddlab.rnd.type1.destnpkg" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/rnd/type1/destnpkg" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="282" width="522" x="41" y="37"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="2" language="java" name="com.ddlab.rnd.type1.destnpkg.Address1" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/rnd/type1/destnpkg/Address1.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="436" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.ddlab.rnd.type1.destnpkg.Person1" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/rnd/type1/destnpkg/Person1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="149" y="200"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="4" language="java" name="com.ddlab.dozer.type5.srcpkg" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type5/srcpkg" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="306" width="367" x="487" y="634"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="5" language="java" name="com.ddlab.dozer.type5.srcpkg.SrcBean" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type5/srcpkg/SrcBean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="666" y="807"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="6" language="java" name="com.ddlab.dozer.type5.converters" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type5/converters" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="253" width="931" x="29" y="352"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="7" language="java" name="com.ddlab.dozer.type5.converters.UUIDConverter" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type5/converters/UUIDConverter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="192" y="459"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.ddlab.dozer.type5.converters.Double2BigDecimalConverter" 
+    project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type5/converters/Double2BigDecimalConverter.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="488" y="462"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.ddlab.dozer.type5.converters.Date2JodaDateConverter" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type5/converters/Date2JodaDateConverter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="781" y="463"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="10" language="java" name="com.ddlab.dozer.type5.destnpkg" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type5/destnpkg" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="311" width="424" x="31" y="629"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="11" language="java" name="com.ddlab.dozer.type5.destnpkg.DestnBean" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type5/destnpkg/DestnBean.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="246" y="801"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="12" language="java" name="com.ddlab.dozer.type2.destnpkg" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type2/destnpkg" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="280" width="538" x="41" y="1653"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="13" language="java" name="com.ddlab.dozer.type2.destnpkg.AddressBean" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type2/destnpkg/AddressBean.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="486" y="1812"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.ddlab.dozer.type2.destnpkg.AddressBeanList" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type2/destnpkg/AddressBeanList.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="165" y="1813"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="15" language="java" name="com.ddlab.dozer.type4.destnpkg" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type4/destnpkg" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="637" width="708" x="30" y="978"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="16" language="java" name="com.ddlab.dozer.type4.destnpkg.AddressBean" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type4/destnpkg/AddressBean.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="153" y="1370"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.ddlab.dozer.type4.destnpkg.AddressBeanList" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type4/destnpkg/AddressBeanList.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="157" y="1086"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.ddlab.dozer.type4.destnpkg.Address1" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type4/destnpkg/Address1.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="379" y="1460"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.ddlab.dozer.type4.destnpkg.Country" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type4/destnpkg/Country.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="630" y="1456"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.ddlab.dozer.type4.destnpkg.Person1" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type4/destnpkg/Person1.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="376" y="1171"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="21" language="java" name="com.ddlab.dozer.type4.srcpkg" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type4/srcpkg" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="566" width="420" x="780" y="980"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="22" language="java" name="com.ddlab.dozer.type4.srcpkg.Address" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type4/srcpkg/Address.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="885" y="1346"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.ddlab.dozer.type4.srcpkg.AddressList" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type4/srcpkg/AddressList.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="882" y="1110"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.ddlab.dozer.type4.srcpkg.MyPerson" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type4/srcpkg/MyPerson.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1081" y="1266"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="25" language="java" name="com.ddlab.rnd.type1.srcpkg" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/rnd/type1/srcpkg" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="285" width="460" x="625" y="32"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="26" language="java" name="com.ddlab.rnd.type1.srcpkg.Person" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/rnd/type1/srcpkg/Person.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="175" width="159" x="634" y="81"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.ddlab.rnd.type1.srcpkg.Address" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/rnd/type1/srcpkg/Address.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="139" width="153" x="888" y="99"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="28" language="java" name="com.ddlab.dozer.type2.srcpkg" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type2/srcpkg" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="272" width="565" x="623" y="1663"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="29" language="java" name="com.ddlab.dozer.type2.srcpkg.AddressList" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type2/srcpkg/AddressList.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="741" y="1813"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="com.ddlab.dozer.type2.srcpkg.Address" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/main/java/com/ddlab/dozer/type2/srcpkg/Address.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1092" y="1806"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="31">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="32" name="country"/>      
+      <multiplicity id="33" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="34">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="35" name="adrsList"/>      
+      <multiplicity id="36" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="37">    
+    <bendpoint x="300" y="196"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="38" name="adrs1"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="40">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="41" name="adrsList"/>      
+      <multiplicity id="42" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="43">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="44" name="adrsList"/>      
+      <multiplicity id="45" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="46">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="47" name="adrsList"/>      
+      <multiplicity id="48" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="49">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="50" name="adrs"/>      
+      <multiplicity id="51" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="52">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="53" name="adrs1"/>      
+      <multiplicity id="54" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.8" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <package id="1" language="java" name="com.ddlab.rnd.type1" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/test/java/com/ddlab/rnd/type1" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="215" width="559" x="41" y="32"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="com.ddlab.dozer.type3" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/test/java/com/ddlab/dozer/type3" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="275" width="564" x="54" y="485"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="com.ddlab.dozer.type2" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/test/java/com/ddlab/dozer/type2" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="194" width="611" x="53" y="267"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="com.ddlab.dozer.type5" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/test/java/com/ddlab/dozer/type5" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="169" width="618" x="45" y="1123"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="5" language="java" name="com.ddlab.dozer.type4" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/test/java/com/ddlab/dozer/type4" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="252" width="585" x="52" y="817"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="6" language="java" name="com.ddlab.rnd.type1.TestBeanMappingType1" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/test/java/com/ddlab/rnd/type1/TestBeanMappingType1.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="407" x="141" y="83"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.ddlab.dozer.type2.TestList2List" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/test/java/com/ddlab/dozer/type2/TestList2List.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="125" width="380" x="162" y="321"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.ddlab.dozer.type3.TestBidirectional" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/test/java/com/ddlab/dozer/type3/TestBidirectional.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="343" x="176" y="562"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.ddlab.dozer.type4.TestNestedBean2Flat" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/test/java/com/ddlab/dozer/type4/TestNestedBean2Flat.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="230" x="84" y="897"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.ddlab.dozer.type4.TestFlatBean2Nested" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/test/java/com/ddlab/dozer/type4/TestFlatBean2Nested.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="230" x="363" y="891"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.ddlab.dozer.type5.TestCustomConverters" project="dozer-bean-copy" 
+    file="/dozer-bean-copy/src/test/java/com/ddlab/dozer/type5/TestCustomConverters.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="270" x="220" y="1180"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
